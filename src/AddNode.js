@@ -14,7 +14,7 @@
       this.render(renderer);
     }
 
-    update(frame) {
+    render(frame) {
       this.uniforms.opacity.value = this.opacity;
       this.uniforms.A.value = this.inputs.A.getValue();
       this.uniforms.B.value = this.inputs.B.getValue();
